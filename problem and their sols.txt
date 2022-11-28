@@ -1,0 +1,21 @@
+div 2 a is always easy. look for easy solution first;
+
+https://codeforces.com/problemset/problem/1559/A
+problem:                        solution:
+                                
+--an array;                     -- as we have to find the minimum value 
+                                   by and operation, we can say that
+                                   we can minimize the maximum value 
+                                   by using and on the minimum value with the
+                                   rest of the value ;
+                                   because we have to use and operation 
+                                   and operation among themselves;
+                                   so the final ans will depend on the and operation;
+--and operation with all its 
+elements
+--make the largest value as 
+small as possible;
+
+
+
+
