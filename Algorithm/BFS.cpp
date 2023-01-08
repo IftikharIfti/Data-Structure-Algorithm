@@ -2,8 +2,10 @@
 
 using namespace std;
 
-vector<bool> visited;
-vector<vector<int>> graph;
+#define MAXN 202020
+
+vector<bool> visited(MAXN);
+vector<int> graph[MAXN];
 
 void _EDGE(int a,int b)
 {
@@ -37,8 +39,6 @@ int main()
 {
     int nodes,edges;
     cin>>nodes>>edges;
-    visited.assign(nodes,false);
-    graph.assign(nodes,vector<int>());
 
     int a,b;
     for(int i=0;i<edges;i++)
