@@ -8,6 +8,8 @@ vector<vector<int>> graph;
 void _EDGE(int a,int b)
 {
     graph[a].push_back(b);
+    //for undirected graph
+    // graph[b].push_back(a);
 }
 
 void bfs (int u)
