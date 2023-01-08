@@ -3,6 +3,13 @@ using namespace std;
 
 vector<int> adj[100000];
 bool visited[100000];
+
+void ADD_EDGE(int a,int b)
+{
+ adj[p].push_back(q);
+ //for undirected graph:
+ //adj[q].push_back(p);
+}
 void dfs(int k)
 {
  if(visited[k])
@@ -21,8 +28,8 @@ int main()
          //directed graph
          int p,q;
          cin>>p>>q;
-         adj[p].push_back(q);
          
+         ADD_EDGE(p,q);
     }
     //dfs(0);
 
